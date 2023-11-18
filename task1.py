@@ -18,6 +18,9 @@ def game():
         if guess >= 100:
             print("Invalid Input\nPlease try again")
             continue
+        elif guess <= 0:
+            print("Invalid Input\nPlease try again")
+            continue
         
         if guess == 87:
             print("You witnessed the bite of 87!\nGame Over!")
