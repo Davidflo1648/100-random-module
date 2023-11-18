@@ -5,7 +5,7 @@
 import random
 
 def instructions():
-    print("Welcome to guess the number!\nThe game is simple\nThe computer will think of a number between 1 and 100 and you have to try to guess it\nThe computer will tell if your guess is correct, lower or higher than the number the computer is thinking about\nYou get 10 guesses\nAre you ready?")
+    print("\nWelcome to guess the number!\n\nThe game is simple\nThe computer will think of a number between 1 and 100 and you have to try to guess it\nThe computer will tell if your guess is correct, lower or higher than the number the computer is thinking about\nYou get 10 guesses\nAre you ready?")
 
 def game():
     num = int(random.randint(1,100))
