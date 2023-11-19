@@ -4,7 +4,7 @@ def instructions():
     print('\nWelcome to Rock, Paper, Scissors!\nThe game is simple\nYou are going to play rock, paper, scissors against the computer\nJust input what you want to play and soon enough you will know if you won\nGood Luck!')
 
 def game():
-    choice =  input('\nEnter rock paper or scissors: \n')
+    choice =  input('\nEnter rock paper or scissors: ')
     pc_play = random.randint(0,2)
 
     if pc_play == 0:
