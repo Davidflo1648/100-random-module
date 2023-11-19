@@ -10,9 +10,8 @@ def instructions():
 def game():
     num = int(random.randint(1,100))
     guesses = int(0)
-    max_guesses = int(10)
 
-    while max_guesses > guesses:
+    while True:
         guess = int(input("Enter your guess: "))
 
         if guess >= 100:
@@ -36,10 +35,6 @@ def game():
         elif guess == num:
             print(f"You win! The number was {num} and you guessed it in your {guesses} guess!")
             break 
-
-    if guesses == max_guesses:
-        print(f"Game Over! The correct number was {num}")
-
 
 instructions()
 game()
